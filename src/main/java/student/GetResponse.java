@@ -6,14 +6,14 @@ import jakarta.xml.bind.annotation.*;
 @XmlType(name = "", propOrder = {
         "student"
 })
-@XmlRootElement(name = "getResponse", namespace = "http://bykowski.pl/soup-example")
+@XmlRootElement(name = "getResponse", namespace = "http://soap-example")
 public class GetResponse {
 
     @XmlElement(required = true)
     protected Student student;
 
     /**
-     * Gets the value of the pl.bykowski.springbootsoapexample.student property.
+     * Gets the value of the http://soap-example.student property.
      *
      * @return
      *     possible object is
@@ -25,7 +25,7 @@ public class GetResponse {
     }
 
     /**
-     * Sets the value of the pl.bykowski.springbootsoapexample.student property.
+     * Sets the value of the http://soap-example.student property.
      *
      * @param value
      *     allowed object is

@@ -6,7 +6,7 @@ import jakarta.xml.bind.annotation.XmlElement;
 import jakarta.xml.bind.annotation.XmlType;
 
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "student", namespace = "http://bykowski.pl/soup-example", propOrder = {
+@XmlType(name = "student", namespace = "http://soap-example", propOrder = {
         "id",
         "name",
         "surname"

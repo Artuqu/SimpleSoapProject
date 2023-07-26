@@ -9,7 +9,7 @@ import jakarta.xml.bind.annotation.XmlType;
 @XmlType(name = "", propOrder = {
         "id"
 })
-@XmlRootElement(name = "getStudent", namespace = "http://bykowski.pl/soup-example")
+@XmlRootElement(name = "getStudent", namespace = "http://soap-example")
 public class GetStudent {
 
     protected long id;
